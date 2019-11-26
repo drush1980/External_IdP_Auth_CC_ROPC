@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="4" name="External_IdP_Auth_CC_ROPC">
+    <Basepaths>/v1/thirdPartyAuth</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1574721535560</CreatedAt>
+    <CreatedBy>defaultUser</CreatedBy>
+    <Description>Proxy token creation from a 3rd party Idp, for example Okta. This example supports client credential and resource owner flows, and imports the access token from the IdP into the Apigee token store.</Description>
+    <DisplayName>External_IdP_Auth_CC_ROPC</DisplayName>
+    <LastModifiedAt>1574725190174</LastModifiedAt>
+    <LastModifiedBy>defaultUser</LastModifiedBy>
+    <ManifestVersion>SHA-512:18f69cc66fee118daff0e673af3a2786fe7ed81f47ac5ad3c54b6bb3878d0c507f1b00f48099b99d4615e099a0c01ad937ea76ff8d09e507a7ddcbe0a9f9143a</ManifestVersion>
+    <Policies>
+        <Policy>AM-DisablePathCopy</Policy>
+        <Policy>AM_Access_Granted</Policy>
+        <Policy>AM_Add_CORS</Policy>
+        <Policy>AM_Get_Token_Info</Policy>
+        <Policy>DecodeBaseAuthHeaders</Policy>
+        <Policy>EV_Read_AccessToken</Policy>
+        <Policy>GO_Get_Token_Info</Policy>
+        <Policy>JS-SetAuthStatus</Policy>
+        <Policy>OA_MintAccessToken</Policy>
+        <Policy>OA_OAuth_v20_1</Policy>
+        <Policy>OA_StoreAccessToken</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://setAuthStatus.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>

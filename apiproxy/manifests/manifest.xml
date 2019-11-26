@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AM-DisablePathCopy" version="SHA-512:65545adfc4f5a4e7212f10c8e04ab8a999cc94d86a5be7301188f55ac208b8d5b9f24f6b66ce086fa9051be85840bcbd069db9e440feb7c3083976ab52137b56"/>
+        <VersionInfo resourceName="AM_Access_Granted" version="SHA-512:bf07390396854fc32f3c43c01ba411f37a1a0f7beabb1d343be298fab44b6fc7eb545c8ce24256a2080016492611be6bc344d04cb387a68f4bd6be473d959d99"/>
+        <VersionInfo resourceName="AM_Add_CORS" version="SHA-512:541c72e2b7cc91af0d16e8d54d3e832bd968483c2992ee0b3dff115b542308dfcdf69e189dc6640f6f494080580a22019ada46a13a32123b1197bb428c0be963"/>
+        <VersionInfo resourceName="AM_Get_Token_Info" version="SHA-512:e5328835f1d43c3a572d0dd0f43c506cf741771320e3bfee728e7068b6d3b7f138d3e0359c92e9ff4c3d00490ba68b11eea67da34071612962de2c3e075896a3"/>
+        <VersionInfo resourceName="DecodeBaseAuthHeaders" version="SHA-512:e735a0f6bf439529211870e86ca909e52ea62c78881b6b21765495775b2654787e094dde2be1ca5525764b9cef43442f3b09db3dacb5cdbf44de4202bcabbf3b"/>
+        <VersionInfo resourceName="EV_Read_AccessToken" version="SHA-512:ae9123ffe47fe1656e7f7dcc29ac0d4d43e8270d9b1fe77496915e247b055e396ff536baf97647eab82301758e04dbb83d039ad6a0d2340f3d8dde7360203862"/>
+        <VersionInfo resourceName="GO_Get_Token_Info" version="SHA-512:8ccab3a6f70c1366af5f10083b0c6a3696f63bf1d30ada25a1890744d6c1b963b22501419f51d018b1b0715ee620efa2198872855e8c6edc1d80f8b8c898f3e1"/>
+        <VersionInfo resourceName="JS-SetAuthStatus" version="SHA-512:ea9b74558873067d30eef8838cab8bfcdfc2e07013ca60a6ac6a1dd8854f9d18894263426bbfe002c7e70834a22e9cb22ef0d2dda524058532c8343f7b25c0c3"/>
+        <VersionInfo resourceName="OA_MintAccessToken" version="SHA-512:a5810da647a9573599aad5c27be1eb20f69d3a2c1291325a7f4e8890382de0eb4835785589fd2d1a93da7779434198bd94e85befa28b7bac801207dc8629023d"/>
+        <VersionInfo resourceName="OA_OAuth_v20_1" version="SHA-512:05e23551377cde686f418a80b5864279cf844e5719b14d0cbe3fadba082523dca23eb1aef4e863ff23c382ae99ea0f2ba65d0a9f288b4d591509ce929d3840f5"/>
+        <VersionInfo resourceName="OA_StoreAccessToken" version="SHA-512:f76ef4569c3ee839ee33a215f56fc2f5ead534294ad6aff67d4453b5b0d29e90d55f360a4153e877224c8b9ea1fefdc56c13d1b5dfd7fabcf01f48b493a7c4f0"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:69aef904e3030b73f3173fe28da0effd2979a81dc0c99afe7fdc39310d837a74bb0efd4375931d5d04e1e98d252cbff12d4db4cae925a85485ca15a523c150e3"/>
+    </ProxyEndpoints>
+    <Resources>
+        <VersionInfo resourceName="jsc://setAuthStatus.js" version="SHA-512:e9f5e36ea6a95aef9ae4cbd8a4bb81a09b6aaf6dd32e96ff5a2086f398e276d56c3d8ddb061c81fec4eb9bb67316ee4b517661d7ddd44a83318a0b6f8feb95a8"/>
+    </Resources>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:3ab31e9b02324238cd84b5358d32cb75e89cd92841cea72d91dfe7c6225f73f626dadfb7c4cd3dd34efb68544d0db2ff1d815001dfd875702d85714b2bf5c571"/>
+    </TargetEndpoints>
+</Manifest>

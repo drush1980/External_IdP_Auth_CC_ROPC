@@ -1,0 +1,2 @@
+context.setVariable("request.formparam.client_id", context.getVariable("request.header.username")); // OAuthV2 policy requires this to be set
+context.setVariable("oauth_external_authorization_status", true);
