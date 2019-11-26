@@ -2,6 +2,7 @@
 
 This is an Apigee API Proxy that shows how to integrate Apigee with a third party identity management platform (in this example [Okta](https://www.okta.com/)).  This proxy supports requesting OAuth tokens from the IdP using either [client credentials](https://tools.ietf.org/html/rfc6749#section-4.4) or [resource owner password credentials](https://tools.ietf.org/html/rfc6749#section-4.3) flows.
 
+![alt text](./images/reference-arch.png "Reference Architecture")
 
 ## Disclaimer
 
